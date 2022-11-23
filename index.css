@@ -3,3 +3,108 @@
     padding: 0;
     background-color: #dcdbdb;
 }
+
+#a{
+    position:absolute;
+    background-color: transparent;
+    top: -10%;
+    left: 30%;
+    font-size:950%;
+    font-weight: bold;
+    font-style: normal;
+    font-family:  Arial, sans-serif;
+    
+}
+
+#b{
+    position:absolute;
+    background-color:transparent;
+    top: 40%;
+    left:-8%;
+    margin: auto;
+    font-size: 2200%;
+    color: #FFFFFF;
+    font-family:  Arial, serif;
+}
+
+#Facebook{
+    position: absolute;
+    left: 92%;
+    top:2%;
+}
+#Linkedin{
+    position: absolute;
+    left: 95%;
+    top:2%;
+}
+
+#Instagram{
+    position: absolute;
+    left: 89%;
+    top: 2%;
+}
+#LogoBizar{
+    position: absolute;
+    left:1%;
+    top: 2%;
+}
+#LogoChelou{
+    position: absolute;
+    left:1%;
+    top: 10%;
+}
+#windows {
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 45%;
+    height: 200px;
+    width: 400px;
+    border-radius: 20%;
+    border: black 3px solid;
+    background-position: bottom;
+        transition: height .3s ;
+    background-image: url("https://www.siaarchitecture.fr/wp-content/uploads/2019/06/archi_inte_2.jpg");
+}
+
+#windows:hover {
+    height: 400px;
+    background-position:bottom;
+    background-image: url("https://www.siaarchitecture.fr/wp-content/uploads/2019/06/archi_inte_2.jpg");
+    ; }
+#l {
+        position: absolute;
+        top: 20%;
+        left: 80%;
+        width: max-content;
+        border-bottom: 3px transparent;
+        -webkit-mask: 
+          conic-gradient(from 180deg at top 8px right 8px, #0000 90deg,#000 0)
+           var(--_i,200%) 0  /200% var(--_i,8px) border-box no-repeat,
+          conic-gradient(at bottom 8px left  8px,  #0000 90deg,#000 0)
+           0   var(--_i,200%)/var(--_i,8px) 200% border-box no-repeat,
+          linear-gradient(#000 0 0) padding-box no-repeat;
+        transition: .3s, -webkit-mask-position .3s .3s;
+      }
+#l:hover {
+        --_i: 100%;
+        border-bottom: 3px solid;
+        transition: .3s, -webkit-mask-size .3s .3s;
+      }
+#bandedown{
+    position: absolute;
+    left: 0%;
+    top:85%;
+}
+#fleche{
+    background-color: transparent;
+    position: fixed;
+    left: 85%;
+    top: 88%;
+    opacity: 0.5;
+    
+}
+#down {
+    position: absolute;
+    top: 100%;
+}
