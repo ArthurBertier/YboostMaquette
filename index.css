@@ -2,6 +2,9 @@
     margin : 0;
     padding: 0;
     background-color: #dcdbdb;
+    scroll-behavior: unset;
+    overflow: auto;
+    overflow-y: scroll; 
 }
 
 #a{
@@ -22,7 +25,9 @@
     top: 40%;
     left:-8%;
     margin: auto;
-    font-size: 2200%;
+    font-size: 18.5em;
+    overflow: hidden;
+    white-space: nowrap;
     color: #FFFFFF;
     font-family:  Arial, serif;
 }
@@ -102,9 +107,14 @@
     left: 85%;
     top: 88%;
     opacity: 0.5;
+    transition: transform .7s ease-in-out;
     
 }
 #down {
     position: absolute;
     top: 100%;
+}
+
+#fleche:hover {
+    transform: rotate(360deg);
 }
